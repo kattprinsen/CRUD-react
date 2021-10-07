@@ -4,8 +4,8 @@ import './App.css';
 import { Switch, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Devices } from './components/Devices';
-import  Sites  from './components/Sites';
+import Devices from './components/Devices';
+import Sites  from './components/Sites';
 import { Users } from './components/Users';
 
 function App() {

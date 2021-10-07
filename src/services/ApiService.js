@@ -6,7 +6,7 @@ const getAllSites = () => {
 };
 
 //Get site based on site_id
-const getSite = () => {
+const getSite = id => {
   return http.get(`/sites/${id}`);
 };
 
@@ -16,7 +16,7 @@ const getDevices = () => {
 };
 
 //Get device on site_id
-const getDevice => () => {
+const getDevice = id => {
   return http.get(`/devices/${id}`);
 };
 

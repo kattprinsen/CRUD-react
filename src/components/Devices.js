@@ -31,6 +31,7 @@ const Devices = () => {
           </li>
         ))}
       </ul>
+      <br />
         <div className="col-md-6">
         {currentDevice ? (
           <div>

@@ -20,6 +20,14 @@ const getDevice = id => {
   return http.get(`/devices/${id}`);
 };
 
+const getUsers = () => {
+    return http.get('/users');
+};
+
+const getUser = id => {
+  return http.get(`/users/${id}`);
+}
+
 //CreateSite NOT IMPLEMENTED
 /*const createSite = () => {
   return http.post('/sites', data);
@@ -35,12 +43,13 @@ const getDevice = id => {
   return http.delete(`/sites/${id}`);
 }*/
 
-
 export default {
   getAllSites,
   getSite,
   getDevices,
   getDevice,
+  getUsers,
+  getUser
   //createSite,
   //UpdateSite,
   //removeSite,

@@ -14,6 +14,3 @@ with port:3000
 git is also added for keeping track of progress use
 -git log
 to find see what happened.
-
-any questions?
-simon.bergqvist@consid.se

@@ -26,7 +26,7 @@ const Devices = () => {
     <div className="devices">
       <ul className="list-group">
         {devices.map((device, index) => (
-          <li className="list-group-item" onClick={() => setActiveDevice(device)} key={index}>
+          <li className="list-group-item cursor-pointer" onClick={() => setActiveDevice(device)} key={index}>
             {device.title}
           </li>
         ))}

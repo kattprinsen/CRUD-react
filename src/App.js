@@ -32,8 +32,8 @@ function App() {
       </nav>
         <div className="container mt-3">
           <Switch>
-            <Route exact path={["/", "/sites"]} component={Sites} />
-            <Route exact path="/users" component={Users} />
+            <Route exact path={["/", "/Users"]} component={Users} />
+            <Route exact path="/Sites" component={Sites} />
             <Route exact path="/devices" component={Devices} />
             <Route path="/devices/:id" component={Devices} />
           </Switch>

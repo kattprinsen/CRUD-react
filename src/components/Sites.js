@@ -27,7 +27,7 @@ const ShowSites = () => {
     <div className="sites">
       <ul className="list-group">
         {sites.map((site, index) =>(
-          <li className="list-group-item" onClick={() => setActiveSite(site)} key={index}>
+          <li className="list-group-item cursor-pointer" onClick={() => setActiveSite(site)} key={index}>
             {site.title}
           </li>
         ))}

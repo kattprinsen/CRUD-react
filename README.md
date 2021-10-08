@@ -14,3 +14,7 @@ with port:3000
 git is also added for keeping track of progress use
 -git log
 to find see what happened.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7364189be63050ddc2ddbb0d0e42a32aed5a0b3e
